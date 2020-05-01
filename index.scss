@@ -1,0 +1,441 @@
+.meat{
+    width: 100%;
+    height: 100vh;
+    background: url(../img/bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    -moz-background-size:100%;
+    -webkit-background-size:100%;
+    -o-background-size:100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    .word{
+        color: #fff;
+        background: blue;
+        height: 20px;
+    }
+    .emily{
+        grid-row: 1/2;
+        grid-column: 1/2;
+        max-width: 130px;
+        padding-left: 30px;
+        align-self: center;
+        margin-left: 10px;
+    }
+    .ELLIE{
+        grid-row: 1/2;
+        grid-column: 3/4;
+        align-self: center;
+        justify-self: center;
+        min-width: 230px;
+        padding-left: 30px;
+    }
+    .ABIGAIL{
+        grid-row: 1/2;
+        grid-column: 5/6;
+        align-self: center;
+        justify-self: center;
+        min-width: 130px;
+        padding-left: 30px;
+    }
+    .ANNABELLE{
+        grid-row: 1/2;
+        grid-column: 7/8;
+        align-self: center;
+        justify-self: center;
+        min-width: 160px;
+        padding-left: 30px;
+    }
+    .KATIE{
+        grid-row: 1/2;
+        grid-column: 9/9;
+        align-self: center;
+        justify-self: center;
+        min-width: 160px;
+        padding-left: 30px;
+    }
+    .ARIA{
+        grid-row: 2/3;
+        grid-column: 2/3;
+        margin-left: 20px;
+        max-width: 60px;
+        padding-left: 30px;
+        align-self: center;
+        justify-content: center;
+        margin-left: 10px;
+    }
+    .ANNIE{
+        grid-row: 2/3;
+        grid-column: 3/4;
+        margin-left: 20px;
+        max-width: 60px;
+        padding-left: 30px;
+        align-self: center;
+        justify-content: flex-end;
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+    .LISA{
+        grid-row: 2/3;
+        grid-column: 3/4;
+        margin-left: 20px;
+        max-width: 60px;
+        padding-left: 20px;
+        padding-right: 20px;
+        align-self: flex-end;
+        justify-self: flex-end;
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+    .AMANDA{
+        grid-row: 2/3;
+        grid-column: 5/6;
+        max-width: 60px;
+        padding-right: 30px;
+        padding-left: 20px;
+        align-self: center;
+        justify-self: flex-start;
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+    .LEAH{
+        grid-row: 3/4;
+        grid-column: 5/6;
+        max-width: 60px;
+        padding-right: 30px;
+        padding-left: 20px;
+        align-self: flex-start;
+        justify-self: flex-end;
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+    .MEGAN{
+        grid-row: 3/4;
+        grid-column: 7/8;
+        min-width: 140px;
+        padding-right: 30px;
+        padding-left: 50px;
+        align-self: flex-start;
+        justify-self: flex-end;
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+    .LEXI{
+        grid-row: 3/4;
+        grid-column: 8/9;
+        min-width: 60px;
+        padding-right: 30px;
+        padding-left: 50px;
+        align-self: flex-start;
+        justify-self: flex-end;
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+    .GRACE{
+        grid-row: 3/4;
+        grid-column: 1/2;
+        min-width: 60px;
+        padding-right: 30px;
+        padding-left: 10px;
+        align-self: flex-start;
+        justify-self: flex-end;
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+    .VIOLET{
+        grid-row: 3/4;
+        grid-column: 2/3;
+        min-width: 60px;
+        padding-right: 30px;
+        padding-left: 10px;
+        align-self: center;
+        justify-self: flex-end;
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+    .EVA{
+        grid-row: 3/4;
+        grid-column: 3/4;
+        min-width: 60px;
+        padding-right: 30px;
+        padding-left: 10px;
+        align-self: flex-end;
+        justify-self: center;
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+    .CLARA{
+        grid-row: 4/5;
+        grid-column: 2/3;
+        min-width: 60px;
+        padding-right: 30px;
+        padding-left: 10px;
+        align-self: flex-end;
+        justify-self: center;
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+    .SERENA{
+        grid-row: 4/5;
+        grid-column: 4/5;
+        min-width: 60px;
+        padding-right: 30px;
+        padding-left: 10px;
+        align-self: flex-end;
+        justify-self: center;
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+    .EVELYN{
+        grid-row: 4/5;
+        grid-column: 5/7;
+        min-width: 110px;
+        padding-right: 30px;
+        padding-left: 50px;
+        align-self: center;
+        justify-self: flex-end;
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+    .ALICE{
+        grid-row: 4/6;
+        grid-column: 7/9;
+        min-width: 110px;
+        padding-right: 30px;
+        padding-left: 50px;
+        align-self: center;
+        justify-self: flex-end;
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+    .AURORA{
+        grid-row: 6/7;
+        grid-column: 1/2;
+        min-width: 110px;
+        padding-right: 30px;
+        padding-left: 50px;
+        align-self: center;
+        justify-self: flex-end;
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+    .IVY{
+        grid-row: 6/7;
+        grid-column: 2/3;
+        min-width: 60px;
+        padding-right: 30px;
+        padding-left: 50px;
+        align-self: flex-start;
+        justify-self: flex-end;
+        margin-top: 30px;
+        margin-left: 10px; 
+    }
+    .SOPHIA{
+        grid-row: 5/6;
+        grid-column: 3/4;
+        min-width: 60px;
+        padding-right: 30px;
+        padding-left: 50px;
+        align-self: flex-end;
+        justify-self: flex-end;
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+    .INFO{
+        grid-row: 5/6;
+        grid-column: 4/7;
+        min-width: 60px;
+        height: 26px;
+        line-height: 26px;
+        font-weight: 400;
+        padding-right: 30px;
+        padding-left: 50px;
+        align-self: flex-end;
+        justify-self: flex-end;
+        margin-top: 30px;
+        margin-left: 10px;
+        background: yellow;
+        color: blue;
+    }
+    .THEA{
+        grid-row: 5/7;
+        grid-column: 4/7;
+        min-width: 60px;
+        padding-right: 30px;
+        padding-left: 50px;
+        align-self: flex-end;
+        justify-self: center;
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+    .LUCY{
+        grid-row: 4/8;
+        grid-column: 5/8;
+        min-width: 60px;
+        padding-right: 30px;
+        padding-left: 50px;
+        align-self: center;
+        justify-self: center;
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+    .JOY{
+        grid-row: 5/8;
+        grid-column: 7/8;
+        min-width: 60px;
+        padding-right: 30px;
+        padding-left: 50px;
+        align-self: center;
+        justify-self: center;
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+    .CHLOE{
+        grid-row: 6/8;
+        grid-column: 8/9;
+        min-width: 60px;
+        padding-right: 30px;
+        padding-left: 50px;
+        align-self: flex-start;
+        justify-self: center;
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+    .OLIVA{
+        grid-row: 7/8;
+        grid-column: 7/9;
+        min-width: 60px;
+        padding-right: 30px;
+        padding-left: 50px;
+        align-self: flex-start;
+        justify-self: center;
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+    .MOLLY{
+        grid-row: 7/8;
+        grid-column: 2/3;
+        min-width: 60px;
+        padding-right: 30px;
+        padding-left: 50px;
+        align-self: flex-start;
+        justify-self: flex-end;
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+    .SUMMER{
+        grid-row: 7/8;
+        grid-column: 3/5;
+        min-width: 60px;
+        padding-right: 30px;
+        padding-left: 50px;
+        align-self: flex-start;
+        justify-self: center;
+        margin-top: 30px;
+        margin-left: 10px; 
+    }
+    .BELLA{
+        grid-row: 7/9;
+        grid-column: 4/6;
+        min-width: 60px;
+        padding-right: 30px;
+        padding-left: 50px;
+        align-self: flex-end;
+        justify-self: flex-end;
+        margin-top: 30px;
+        margin-left: 10px; 
+    }
+    .HANNA{
+        grid-row: 7/8;
+        grid-column: 6/8;
+        min-width: 60px;
+        padding-right: 30px;
+        padding-left: 50px;
+        align-self: flex-end;
+        justify-self: center;
+        margin-top: 30px;
+        margin-left: 10px; 
+    }
+    .NANCY{
+        grid-row: 7/8;
+        grid-column: 8/9;
+        min-width: 60px;
+        padding-right: 30px;
+        padding-left: 50px;
+        align-self: flex-end;
+        justify-self: flex-end;
+        margin-top: 30px;
+        margin-left: 10px; 
+    }
+    .ELIZABETH{
+        grid-row: 8/9;
+        grid-column: 1/2;
+        min-width: 60px;
+        padding-right: 30px;
+        padding-left: 50px;
+        align-self: flex-end;
+        justify-self: flex-end;
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+    .JULIA{
+        grid-row: 8/9;
+        grid-column: 2/4;
+        min-width: 60px;
+        padding-right: 30px;
+        padding-left: 50px;
+        align-self: flex-end;
+        justify-self: center;
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+    .BELLA{
+        grid-row: 8/9;
+        grid-column: 4/6;
+        min-width: 60px;
+        padding-right: 30px;
+        padding-left: 50px;
+        align-self: flex-end;
+        justify-self: flex-end;
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+    .ROSE{
+        grid-row: 9/9;
+        grid-column: 5/7;
+        min-width: 60px;
+        padding-right: 30px;
+        padding-left: 50px;
+        align-self: center;
+        justify-self: flex-end;
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+    .WILLOW{
+        grid-row: 9/9;
+        grid-column: 7/9;
+        min-width: 60px;
+        padding-right: 30px;
+        padding-left: 50px;
+        align-self: center;
+        justify-self: flex-end;
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+}
+.mark{
+    width: 100%;
+    height: 100%;
+    background: rgba($color: #000000, $alpha:.4);
+    position: fixed;
+    z-index: 10;
+}
+img{
+    position: absolute;
+    left: 30%;
+    margin-top: 30px;
+    z-index: 12;
+}
